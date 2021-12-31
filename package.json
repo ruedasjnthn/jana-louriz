@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://ruedasjnthn.github.io/website/",
   "scripts": {
     "dev": "sass --watch src/scss:src/dist",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d src/dist"
   },
   "devDependencies": {
     "sass": "^1.45.1"

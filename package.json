@@ -1,0 +1,16 @@
+{
+  "name": "louriz-milabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch src/scss:src/dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "sass": "^1.45.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
